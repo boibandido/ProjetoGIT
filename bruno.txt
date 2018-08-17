@@ -1,0 +1,55 @@
+ls -l versão detalhada 
+D- diretorio
+- arquivos 
+R - permissão de leitura
+w - permissão de escrita
+x - permissão de execução/acesso(execute)
+R- 4 pontos
+W - 2 pontos
+x - 1 ponto
+chmod altera as permissões
+
+
+para mudar o dono do arquivo 
+chown band arquivo - novo usuario do arquivo band
+
+para mudar o grupo dono do arquivo
+chgrp ubuntu arquivo
+
+sudo groupadd - criar grupo
+sudo groupdel - apagar grupo
+
+sudo adduser - criar novo usuario 
+sudo userdel -r - remover usuario e todos os seus arquivos
+
+adicionar usuario ao grupo
+sudo gpasswd -a - <usuari> <grupo>
+ 
+remove usuario de um grupo
+sudo gpasswd -d
+
+listar os grupos ao qual  o usuario pertence 
+groups <usuario>
+
+forma octal
+chmod 765 arquivo1
+ 
+chmod a-rwx arquivo1
+chmod u+rw arquivo1
+chmod g+rw arquivo1
+chmod o+r arquivo1
+
+para ver os grupos
+cat /etc/group
+
+criar arquivo - echo Boa noite >arquivo3
+
+
+criar arquivo - touch arquivo2
+
+
+
+
+criar arquivo - nano arquivo1
+
+rm arquivo*
